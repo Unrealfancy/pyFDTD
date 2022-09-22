@@ -1,8 +1,11 @@
 # pyFDTD
 A fast simulation program based on python and ansys-lumerical-FDTD for optical simulation, allowing users to quickly model, run and read simulation results for analysis
 
-本程序主要用于实现计算周期性结构的光学仿真计算，通过lumerical-FDTD提供的pothon API,实现对FDTD的建模控制，同时通过可以对计算结果进行快速分析：    
-  
+本程序主要用于实现计算周期性结构的光学仿真计算，通过lumerical-FDTD提供的pothon API,实现对FDTD的建模控制，同时通过可以对计算结果进行快速分析：
+    
+2022.0922更新：  
+修复一些Bug
+
 实现的功能：  
 1，一键建模，打开文件后会自动读取fsp文件中的材料光参（如果需要添加材料可以预先在fsp文件中添加），添加层数，设置层的厚度，最后点击建模即可一键完成建模，点击运行会进入计算，勾选表格中场可以选择需要观察场的结构层  
 2，重叠建模，在建模表右边重叠层处选择除0选项后，会将该层往下平移至与上一层顶端齐平，可用于灵活设置包括刻蚀，十字，包覆层等特异结构。  
