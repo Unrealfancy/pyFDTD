@@ -1,7 +1,7 @@
 # pyFDTD
 A fast simulation program based on python and ansys-lumerical-FDTD for optical simulation, allowing users to quickly model, run and read simulation results for analysis
 
-本程序主要用于实现计算周期性结构的光学仿真计算，通过lumerical-FDTD提供的pothon API,实现对FDTD的建模控制，同时通过可以对计算结果进行快速分析.解压密码：unrealfancy
+本程序主要用于实现计算周期性结构的光学仿真计算，通过lumerical-FDTD提供的pothon API,实现对FDTD的建模控制，同时通过可以对计算结果进行快速分析.
     
 2022.11.22更新V2.21:  
 修复3D仿真bug
